@@ -1,0 +1,599 @@
+COUNTRY,YEAR,VALUE
+Algeria,1994,
+Algeria,1995,
+Algeria,1996,
+Algeria,1997,
+Algeria,1998,
+Algeria,1999,
+Algeria,2000,
+Algeria,2001,
+Algeria,2002,
+Algeria,2003,
+Algeria,2004,
+Algeria,2005,
+Algeria,2006,387
+Armenia,1994,
+Armenia,1995,
+Armenia,1996,
+Armenia,1997,
+Armenia,1998,
+Armenia,1999,
+Armenia,2000,
+Armenia,2001,
+Armenia,2002,478
+Armenia,2003,
+Armenia,2004,
+Armenia,2005,
+Armenia,2006,499
+Australia,1994,509
+Australia,1995,
+Australia,1996,
+Australia,1997,
+Australia,1998,
+Australia,1999,
+Australia,2000,
+Australia,2001,
+Australia,2002,505
+Australia,2003,
+Australia,2004,
+Australia,2005,
+Australia,2006,496
+Bahrain,1994,
+Bahrain,1995,
+Bahrain,1996,
+Bahrain,1997,
+Bahrain,1998,
+Bahrain,1999,
+Bahrain,2000,
+Bahrain,2001,
+Bahrain,2002,401
+Bahrain,2003,
+Bahrain,2004,
+Bahrain,2005,
+Bahrain,2006,398
+Bosnia and Herzegovina,1994,
+Bosnia and Herzegovina,1995,
+Bosnia and Herzegovina,1996,
+Bosnia and Herzegovina,1997,
+Bosnia and Herzegovina,1998,
+Bosnia and Herzegovina,1999,
+Bosnia and Herzegovina,2000,
+Bosnia and Herzegovina,2001,
+Bosnia and Herzegovina,2002,
+Bosnia and Herzegovina,2003,
+Bosnia and Herzegovina,2004,
+Bosnia and Herzegovina,2005,
+Bosnia and Herzegovina,2006,456
+Botswana,1994,
+Botswana,1995,
+Botswana,1996,
+Botswana,1997,
+Botswana,1998,
+Botswana,1999,
+Botswana,2000,
+Botswana,2001,
+Botswana,2002,366
+Botswana,2003,
+Botswana,2004,
+Botswana,2005,
+Botswana,2006,364
+Bulgaria,1994,527
+Bulgaria,1995,
+Bulgaria,1996,
+Bulgaria,1997,
+Bulgaria,1998,511
+Bulgaria,1999,
+Bulgaria,2000,
+Bulgaria,2001,
+Bulgaria,2002,476
+Bulgaria,2003,
+Bulgaria,2004,
+Bulgaria,2005,
+Bulgaria,2006,464
+Canada,1994,524
+Canada,1995,
+Canada,1996,
+Canada,1997,
+Canada,1998,537
+Canada,1999,
+Canada,2000,
+Canada,2001,
+Canada,2002,530
+Canada,2003,
+Canada,2004,
+Canada,2005,
+Canada,2006,522
+Colombia,1994,332
+Colombia,1995,
+Colombia,1996,
+Colombia,1997,
+Colombia,1998,
+Colombia,1999,
+Colombia,2000,
+Colombia,2001,
+Colombia,2002,
+Colombia,2003,
+Colombia,2004,
+Colombia,2005,
+Colombia,2006,380
+Cyprus,1994,468
+Cyprus,1995,
+Cyprus,1996,
+Cyprus,1997,
+Cyprus,1998,476
+Cyprus,1999,
+Cyprus,2000,
+Cyprus,2001,
+Cyprus,2002,459
+Cyprus,2003,
+Cyprus,2004,
+Cyprus,2005,
+Cyprus,2006,465
+Czech Republic,1994,546
+Czech Republic,1995,
+Czech Republic,1996,
+Czech Republic,1997,
+Czech Republic,1998,520
+Czech Republic,1999,
+Czech Republic,2000,
+Czech Republic,2001,
+Czech Republic,2002,
+Czech Republic,2003,
+Czech Republic,2004,
+Czech Republic,2005,
+Czech Republic,2006,504
+Egypt,1994,
+Egypt,1995,
+Egypt,1996,
+Egypt,1997,
+Egypt,1998,
+Egypt,1999,
+Egypt,2000,
+Egypt,2001,
+Egypt,2002,406
+Egypt,2003,
+Egypt,2004,
+Egypt,2005,
+Egypt,2006,391
+El Salvador,1994,
+El Salvador,1995,
+El Salvador,1996,
+El Salvador,1997,
+El Salvador,1998,
+El Salvador,1999,
+El Salvador,2000,
+El Salvador,2001,
+El Salvador,2002,
+El Salvador,2003,
+El Salvador,2004,
+El Salvador,2005,
+El Salvador,2006,340
+Georgia,1994,
+Georgia,1995,
+Georgia,1996,
+Georgia,1997,
+Georgia,1998,
+Georgia,1999,
+Georgia,2000,
+Georgia,2001,
+Georgia,2002,
+Georgia,2003,
+Georgia,2004,
+Georgia,2005,
+Georgia,2006,410
+Ghana,1994,
+Ghana,1995,
+Ghana,1996,
+Ghana,1997,
+Ghana,1998,
+Ghana,1999,
+Ghana,2000,
+Ghana,2001,
+Ghana,2002,276
+Ghana,2003,
+Ghana,2004,
+Ghana,2005,
+Ghana,2006,309
+"Hong Kong, China",1994,569
+"Hong Kong, China",1995,
+"Hong Kong, China",1996,
+"Hong Kong, China",1997,
+"Hong Kong, China",1998,582
+"Hong Kong, China",1999,
+"Hong Kong, China",2000,
+"Hong Kong, China",2001,
+"Hong Kong, China",2002,586
+"Hong Kong, China",2003,
+"Hong Kong, China",2004,
+"Hong Kong, China",2005,
+"Hong Kong, China",2006,572
+Hungary,1994,527
+Hungary,1995,
+Hungary,1996,
+Hungary,1997,
+Hungary,1998,532
+Hungary,1999,
+Hungary,2000,
+Hungary,2001,
+Hungary,2002,529
+Hungary,2003,
+Hungary,2004,
+Hungary,2005,
+Hungary,2006,517
+Indonesia,1994,
+Indonesia,1995,
+Indonesia,1996,
+Indonesia,1997,
+Indonesia,1998,403
+Indonesia,1999,
+Indonesia,2000,
+Indonesia,2001,
+Indonesia,2002,411
+Indonesia,2003,
+Indonesia,2004,
+Indonesia,2005,
+Indonesia,2006,405
+Iran,1994,418
+Iran,1995,
+Iran,1996,
+Iran,1997,
+Iran,1998,422
+Iran,1999,
+Iran,2000,
+Iran,2001,
+Iran,2002,411
+Iran,2003,
+Iran,2004,
+Iran,2005,
+Iran,2006,403
+Israel,1994,
+Israel,1995,
+Israel,1996,
+Israel,1997,
+Israel,1998,466
+Israel,1999,
+Israel,2000,
+Israel,2001,
+Israel,2002,496
+Israel,2003,
+Israel,2004,
+Israel,2005,
+Israel,2006,463
+Italy,1994,
+Italy,1995,
+Italy,1996,
+Italy,1997,
+Italy,1998,479
+Italy,1999,
+Italy,2000,
+Italy,2001,
+Italy,2002,484
+Italy,2003,
+Italy,2004,
+Italy,2005,
+Italy,2006,480
+Japan,1994,581
+Japan,1995,
+Japan,1996,
+Japan,1997,
+Japan,1998,579
+Japan,1999,
+Japan,2000,
+Japan,2001,
+Japan,2002,570
+Japan,2003,
+Japan,2004,
+Japan,2005,
+Japan,2006,570
+Jordan,1994,
+Jordan,1995,
+Jordan,1996,
+Jordan,1997,
+Jordan,1998,428
+Jordan,1999,
+Jordan,2000,
+Jordan,2001,
+Jordan,2002,424
+Jordan,2003,
+Jordan,2004,
+Jordan,2005,
+Jordan,2006,427
+Kuwait,1994,
+Kuwait,1995,
+Kuwait,1996,
+Kuwait,1997,
+Kuwait,1998,
+Kuwait,1999,
+Kuwait,2000,
+Kuwait,2001,
+Kuwait,2002,
+Kuwait,2003,
+Kuwait,2004,
+Kuwait,2005,
+Kuwait,2006,354
+Lebanon,1994,
+Lebanon,1995,
+Lebanon,1996,
+Lebanon,1997,
+Lebanon,1998,
+Lebanon,1999,
+Lebanon,2000,
+Lebanon,2001,
+Lebanon,2002,433
+Lebanon,2003,
+Lebanon,2004,
+Lebanon,2005,
+Lebanon,2006,449
+Lithuania,1994,472
+Lithuania,1995,
+Lithuania,1996,
+Lithuania,1997,
+Lithuania,1998,482
+Lithuania,1999,
+Lithuania,2000,
+Lithuania,2001,
+Lithuania,2002,502
+Lithuania,2003,
+Lithuania,2004,
+Lithuania,2005,
+Lithuania,2006,506
+Malaysia,1994,
+Malaysia,1995,
+Malaysia,1996,
+Malaysia,1997,
+Malaysia,1998,519
+Malaysia,1999,
+Malaysia,2000,
+Malaysia,2001,
+Malaysia,2002,508
+Malaysia,2003,
+Malaysia,2004,
+Malaysia,2005,
+Malaysia,2006,474
+Norway,1994,498
+Norway,1995,
+Norway,1996,
+Norway,1997,
+Norway,1998,
+Norway,1999,
+Norway,2000,
+Norway,2001,
+Norway,2002,461
+Norway,2003,
+Norway,2004,
+Norway,2005,
+Norway,2006,469
+Oman,1994,
+Oman,1995,
+Oman,1996,
+Oman,1997,
+Oman,1998,
+Oman,1999,
+Oman,2000,
+Oman,2001,
+Oman,2002,
+Oman,2003,
+Oman,2004,
+Oman,2005,
+Oman,2006,372
+Qatar,1994,
+Qatar,1995,
+Qatar,1996,
+Qatar,1997,
+Qatar,1998,
+Qatar,1999,
+Qatar,2000,
+Qatar,2001,
+Qatar,2002,
+Qatar,2003,
+Qatar,2004,
+Qatar,2005,
+Qatar,2006,307
+Romania,1994,474
+Romania,1995,
+Romania,1996,
+Romania,1997,
+Romania,1998,472
+Romania,1999,
+Romania,2000,
+Romania,2001,
+Romania,2002,475
+Romania,2003,
+Romania,2004,
+Romania,2005,
+Romania,2006,461
+Russia,1994,524
+Russia,1995,
+Russia,1996,
+Russia,1997,
+Russia,1998,526
+Russia,1999,
+Russia,2000,
+Russia,2001,
+Russia,2002,508
+Russia,2003,
+Russia,2004,
+Russia,2005,
+Russia,2006,512
+Saudi Arabia,1994,
+Saudi Arabia,1995,
+Saudi Arabia,1996,
+Saudi Arabia,1997,
+Saudi Arabia,1998,
+Saudi Arabia,1999,
+Saudi Arabia,2000,
+Saudi Arabia,2001,
+Saudi Arabia,2002,
+Saudi Arabia,2003,
+Saudi Arabia,2004,
+Saudi Arabia,2005,
+Saudi Arabia,2006,329
+Serbia,1994,
+Serbia,1995,
+Serbia,1996,
+Serbia,1997,
+Serbia,1998,
+Serbia,1999,
+Serbia,2000,
+Serbia,2001,
+Serbia,2002,477
+Serbia,2003,
+Serbia,2004,
+Serbia,2005,
+Serbia,2006,486
+Singapore,1994,609
+Singapore,1995,
+Singapore,1996,
+Singapore,1997,
+Singapore,1998,604
+Singapore,1999,
+Singapore,2000,
+Singapore,2001,
+Singapore,2002,605
+Singapore,2003,
+Singapore,2004,
+Singapore,2005,
+Singapore,2006,593
+Slovenia,1994,494
+Slovenia,1995,
+Slovenia,1996,
+Slovenia,1997,
+Slovenia,1998,
+Slovenia,1999,
+Slovenia,2000,
+Slovenia,2001,
+Slovenia,2002,493
+Slovenia,2003,
+Slovenia,2004,
+Slovenia,2005,
+Slovenia,2006,501
+South Korea,1994,581
+South Korea,1995,
+South Korea,1996,
+South Korea,1997,
+South Korea,1998,587
+South Korea,1999,
+South Korea,2000,
+South Korea,2001,
+South Korea,2002,589
+South Korea,2003,
+South Korea,2004,
+South Korea,2005,
+South Korea,2006,597
+Sweden,1994,540
+Sweden,1995,
+Sweden,1996,
+Sweden,1997,
+Sweden,1998,
+Sweden,1999,
+Sweden,2000,
+Sweden,2001,
+Sweden,2002,499
+Sweden,2003,
+Sweden,2004,
+Sweden,2005,
+Sweden,2006,491
+Syria,1994,
+Syria,1995,
+Syria,1996,
+Syria,1997,
+Syria,1998,
+Syria,1999,
+Syria,2000,
+Syria,2001,
+Syria,2002,
+Syria,2003,
+Syria,2004,
+Syria,2005,
+Syria,2006,395
+Taiwan,1994,
+Taiwan,1995,
+Taiwan,1996,
+Taiwan,1997,
+Taiwan,1998,585
+Taiwan,1999,
+Taiwan,2000,
+Taiwan,2001,
+Taiwan,2002,585
+Taiwan,2003,
+Taiwan,2004,
+Taiwan,2005,
+Taiwan,2006,598
+Thailand,1994,
+Thailand,1995,
+Thailand,1996,
+Thailand,1997,
+Thailand,1998,467
+Thailand,1999,
+Thailand,2000,
+Thailand,2001,
+Thailand,2002,
+Thailand,2003,
+Thailand,2004,
+Thailand,2005,
+Thailand,2006,441
+Tunisia,1994,
+Tunisia,1995,
+Tunisia,1996,
+Tunisia,1997,
+Tunisia,1998,448
+Tunisia,1999,
+Tunisia,2000,
+Tunisia,2001,
+Tunisia,2002,410
+Tunisia,2003,
+Tunisia,2004,
+Tunisia,2005,
+Tunisia,2006,420
+Turkey,1994,
+Turkey,1995,
+Turkey,1996,
+Turkey,1997,
+Turkey,1998,
+Turkey,1999,
+Turkey,2000,
+Turkey,2001,
+Turkey,2002,
+Turkey,2003,
+Turkey,2004,
+Turkey,2005,
+Turkey,2006,432
+Ukraine,1994,
+Ukraine,1995,
+Ukraine,1996,
+Ukraine,1997,
+Ukraine,1998,
+Ukraine,1999,
+Ukraine,2000,
+Ukraine,2001,
+Ukraine,2002,
+Ukraine,2003,
+Ukraine,2004,
+Ukraine,2005,
+Ukraine,2006,462
+United Kingdom,1994,498
+United Kingdom,1995,
+United Kingdom,1996,
+United Kingdom,1997,
+United Kingdom,1998,496
+United Kingdom,1999,
+United Kingdom,2000,
+United Kingdom,2001,
+United Kingdom,2002,498
+United Kingdom,2003,
+United Kingdom,2004,
+United Kingdom,2005,
+United Kingdom,2006,511
+United States,1994,492
+United States,1995,
+United States,1996,
+United States,1997,
+United States,1998,502
+United States,1999,
+United States,2000,
+United States,2001,
+United States,2002,504
+United States,2003,
+United States,2004,
+United States,2005,
+United States,2006,508
