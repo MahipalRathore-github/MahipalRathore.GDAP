@@ -1,0 +1,150 @@
+country,year,gni
+Afghanistan,2022,0
+Africa Eastern and Southern,2022,0
+Africa Western and Central,2022,0
+Albania,2022,0
+Algeria,2022,0
+Angola,2022,0
+Armenia,2022,0
+Azerbaijan,2022,0
+Bangladesh,2022,0
+Belize,2022,0
+Benin,2022,0
+Bhutan,2022,0
+Bolivia,2022,0
+Bosnia and Herzegovina,2022,0
+Botswana,2022,0
+Brazil,2022,0
+Burkina Faso,2022,0
+Burundi,2022,0
+Cabo Verde,2022,0
+Cambodia,2022,0
+Cameroon,2022,0
+Caribbean small states,2022,0
+Central African Republic,2022,0
+Chad,2022,0
+Chile,2022,0
+China,2022,0
+Colombia,2022,0
+Comoros,2022,0
+Costa Rica,2022,0
+Cote d'Ivoire,2022,0
+Cuba,2022,0
+Dominica,2022,0
+Dominican Republic,2022,0
+Early-demographic dividend,2022,0
+East Asia & Pacific,2022,0
+East Asia & Pacific (excluding high income),2022,0
+East Asia & Pacific (IDA & IBRD countries),2022,0
+Ecuador,2022,0
+El Salvador,2022,0
+Equatorial Guinea,2022,0
+Eritrea,2022,0
+Eswatini,2022,0
+Ethiopia,2022,0
+Fiji,2022,0
+Fragile and conflict affected situations,2022,0
+Gabon,2022,0
+Georgia,2022,0
+Ghana,2022,0
+Greece,2022,0
+Guatemala,2022,0
+Guinea,2022,0
+Guinea-Bissau,2022,0
+Guyana,2022,0
+Haiti,2022,0
+Heavily indebted poor countries (HIPC),2022,0
+Honduras,2022,0
+IBRD only,2022,0
+IDA & IBRD total,2022,0
+IDA blend,2022,0
+IDA only,2022,0
+IDA total,2022,0
+India,2022,0
+Indonesia,2022,0
+Iraq,2022,0
+Italy,2022,0
+Jamaica,2022,0
+Japan,2022,0
+Kenya,2022,0
+Kiribati,2022,0
+Kyrgyz Republic,2022,0
+Lao PDR,2022,0
+Late-demographic dividend,2022,0
+Latin America & Caribbean,2022,0
+Latin America & Caribbean (excluding high income),2022,0
+Latin America & the Caribbean (IDA & IBRD countries),2022,0
+Least developed countries: UN classification,2022,0
+Lesotho,2022,0
+Liberia,2022,0
+Low & middle income,2022,0
+Low income,2022,0
+Lower middle income,2022,0
+Madagascar,2022,0
+Malawi,2022,0
+Malaysia,2022,0
+Mali,2022,0
+Mauritania,2022,0
+Mexico,2022,0
+Middle income,2022,0
+Moldova,2022,0
+Mongolia,2022,0
+Morocco,2022,0
+Mozambique,2022,0
+Myanmar,2022,0
+Nepal,2022,0
+Nicaragua,2022,0
+Niger,2022,0
+Nigeria,2022,0
+Oman,2022,0
+Pakistan,2022,0
+Panama,2022,0
+Papua New Guinea,2022,0
+Peru,2022,0
+Philippines,2022,0
+Portugal,2022,0
+Pre-demographic dividend,2022,0
+Puerto Rico,2022,0
+Rwanda,2022,0
+Samoa,2022,0
+Sao Tome and Principe,2022,0
+Saudi Arabia,2022,0
+Senegal,2022,0
+Seychelles,2022,0
+Sierra Leone,2022,0
+Singapore,2022,0
+Solomon Islands,2022,0
+Somalia,2022,0
+South Africa,2022,0
+South Asia,2022,0
+South Asia (IDA & IBRD),2022,0
+South Sudan,2022,0
+Spain,2022,0
+Sri Lanka,2022,0
+St. Vincent and the Grenadines,2022,0
+Sub-Saharan Africa,2022,0
+Sub-Saharan Africa (excluding high income),2022,0
+Sub-Saharan Africa (IDA & IBRD countries),2022,0
+Sudan,2022,0
+Suriname,2022,0
+Syrian Arab Republic,2022,0
+Tajikistan,2022,0
+Tanzania,2022,0
+Thailand,2022,0
+Timor-Leste,2022,0
+Togo,2022,0
+Tonga,2022,0
+Trinidad and Tobago,2022,0
+Tunisia,2022,0
+Turkiye,2022,0
+Turkmenistan,2022,0
+Uganda,2022,0
+Ukraine,2022,0
+Upper middle income,2022,0
+Uruguay,2022,0
+Uzbekistan,2022,0
+Vanuatu,2022,0
+Vietnam,2022,0
+World,2022,0
+Zambia,2022,0
+Zimbabwe,2022,0

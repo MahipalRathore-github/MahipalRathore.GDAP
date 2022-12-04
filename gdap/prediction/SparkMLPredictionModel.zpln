@@ -1,0 +1,142 @@
+/*
+*********************************************************
+*********************************************************
+	Linear Regression using Spark 2.x & Scala
+*********************************************************
+*********************************************************
+*/
+
+/*
+--Dataset Location: hdfs://bdatgc-m/bdat/gdap/GNI.csv
+*/
+
+
+import org.apache.spark.sql.types._
+import org.apache.spark.sql.functions._
+import org.apache.spark.ml.feature.{VectorAssembler,StringIndexer}
+import org.apache.spark.ml.Pipeline
+import org.apache.spark.ml.regression.{LinearRegression}
+import org.apache.spark.ml.tuning.{CrossValidator, CrossValidatorModel, ParamGridBuilder}
+import org.apache.spark.ml.evaluation.{RegressionEvaluator}
+import org.apache.spark.ml.param.ParamMap
+import org.apache.spark.sql.types.{DoubleType}
+
+/*
+-- Create Schema for GNI data
+*/
+
+val GNI_Scehma = StructType(Array(
+        StructField("country", StringType, true),
+        StructField("year", IntegerType, true),
+        StructField("gni",DoubleType,true)
+        )
+    )
+
+/*
+-- Loading GNI CSV file, Schema assign to dataframe
+*/
+
+val GNI_Data = spark.read
+ .format("csv")
+ .option("header", "true")
+ .schema(GNI_Scehma)
+ .load("hdfs://bdatgc-m/bdat/gdap/GNI.csv")
+ 
+/*
+-- Loading GNI 2022 dummy text file to make prediction 
+*/
+
+val GNI_Data_2022 = spark.read
+ .format("csv")
+ .option("header", "true")
+ .schema(GNI_Scehma)
+ .load("hdfs://bdatgc-m/bdat/gdap/GNI-2022.txt")
+ 
+ /*
+-- Linear regression object does not accept string values so indexing is required for country to use it as feature. 
+*/
+ 
+val countryIndexer = new StringIndexer()
+  .setInputCol("country")
+  .setOutputCol("country_indexed")  
+
+ /*
+-- creation of new dataframes once country column is indexed. 
+*/
+
+val GNI_Data_YI = countryIndexer.fit(GNI_Data).transform(GNI_Data)
+val GNI_Data_YI_2022 = countryIndexer.fit(GNI_Data_2022).transform(GNI_Data_2022)
+
+/*
+--Assemble our features using vector assembler as we have more than one feature. 
+--VectorAssembler is a transformer that combines a given list of columns into a single vector column. 
+--It is useful for combining raw features into a single feature vector . 
+--The values of the input columns will be concatenated into a vector in the specified order.
+--setInputCols  is for all the feature columns
+--setOutputCol is a place holder for sequence generated as Single Feature vector.
+*/
+
+val assembler = new VectorAssembler()
+.setInputCols(Array("country_indexed","year"))
+.setOutputCol("assembled-features")
+
+/*
+--Linear Regression object creation
+--setFeaturesCol is for providing feature vector generated using vector assembler.
+--setLabelCol is for label.i.e. the column to predict
+*/
+
+val lr = new LinearRegression() 
+ .setFeaturesCol("assembled-features")
+ .setLabelCol("gni")
+ 
+/*
+--Set up pipeline
+-- Use pipepline to set our stages
+-- So our stages are the vector assembler and the random forest classifier object
+*/
+
+ val pipeline = new Pipeline()
+ .setStages(Array(assembler, lr))
+ 
+/*To evaluate the model
+-- Next we provide the evaluator
+-- For regressoin we used RegressionEvaluator
+-- the metric accuracy was simply a percentage
+-- Here we are using RegressionEvaluator
+-- we compared gni ot the prediction column
+*/
+ 
+ val evaluator = new RegressionEvaluator()
+ .setLabelCol("gni")
+ .setPredictionCol("prediction")
+ .setMetricName("r2")
+ 
+/*Cross validate model
+-- Next we tie everything together with cross-validator
+-- We set the pipeline for estimator
+-- Set the hyper parameters and the number of folds
+-- Cross validator will divide the training data set into 30
+-- the best model is picked
+*/
+ 
+ val cross_validator = new CrossValidator()
+ .setEstimator(pipeline)
+ .setEvaluator(evaluator)
+ .setEstimatorParamMaps(new ParamGridBuilder().build)
+ .setNumFolds(30)
+ 
+ /*
+-- Train the model on training data
+-- Gives us the best model from the 6 variations
+*/
+ 
+val cvModel = cross_validator.fit(GNI_Data_YI)
+
+/*Predict with test data
+-- Transform testData with predictions
+*/
+
+val predictions = cvModel.transform(GNI_Data_YI_2022)
+
+
